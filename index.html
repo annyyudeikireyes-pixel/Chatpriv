@@ -1,39 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <meta
-        name="theme-color"
-        content="#2563eb"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111827">
+    <meta name="description" content="ChatPriv: conversa de forma privada con tu código de chat.">
 
     <title>ChatPriv</title>
 
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+    <link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
-
     <div id="app"></div>
 
-    <!-- Socket.IO debe cargarse ANTES de app.js -->
-
+    <!-- Cargar Socket.IO antes de la aplicación -->
     <script src="/socket.io/socket.io.js"></script>
 
-    <script src="app.js"></script>
-
+    <!-- Aplicación ChatPriv -->
+    <script src="/app.js"></script>
 </body>
-
 </html>
